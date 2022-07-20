@@ -1,0 +1,114 @@
+@media only screen and (min-width: 760px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+    /* HOME SECTION START */
+    .home-section {
+        height: 40vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* HOME CONTAINER STYLE START */
+    .home-container {
+        height: 36vh;
+        width: 90vw;
+        margin-left: -1vw;
+        background-color: #161616;
+        color: #ffffff;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-details {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .home-details h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .home-details p {
+        color: #ffffff;
+        margin-bottom: 1rem;
+    }
+    .watch-btn {
+        transition: all 1s ease-in-out;
+        margin-left: -25vw;
+    }
+    /* HOME CONTIANER STYLE END */
+    /* HOME BANNER STYLE START*/
+    .home-banner {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-banner img {
+        height: 375px;
+        width: 340px;
+    }
+    /* HOME BANNER STYLE END*/
+    /* HOME SECTION END */
+    /* BlOG SECTION START */
+    .blog-section {
+        display: block;
+        width: 100vw;
+    }
+    /* NAVIGATION STYLE START*/
+    .navigetor {
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        border: none;
+        margin-bottom: 2rem;
+        background-color: transparent;
+    }
+    .navigetor a button {
+        height: 44px;
+        width: 169px;
+        margin: 7px;
+    }
+    .active-btn {
+        background-color: #DD0000;
+        color: #ffffff;
+    }
+    /* NAVIGATION STYLE END */
+    /* BLOG CONTAINER START */
+    .blog-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 1rem;
+        margin-left: 11vw;
+    }
+    .hodden {
+        display: none;
+    }
+    /* BLOG CONTAINER END */
+    /* BLOG SECTION END */
+    /* FOOTER SECTION STYLE START*/
+    .footer-section {
+        width: 100vw;
+        height: 400px;
+    }
+    .footer-hr {
+        width: 668px;
+    }
+    .footer-links {
+        width: 698px;
+        height: 24px;
+    }
+    /* FOOTER SECTION STYLE END*/
+}
