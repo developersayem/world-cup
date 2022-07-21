@@ -1,4 +1,6 @@
-@media only screen and (min-width: 800px) {
+/* @media only screen and (max-width: 1199.98px) { */
+
+@media only screen and (max-width: 1399.98px) {
     body {
         height: 100%;
         width: 100%;
@@ -245,14 +247,14 @@
     .footer-li-a {
         text-decoration: none;
         color: #B9B9B9;
-    }
-    /* FOOTER SECTION STYLE END*/
-}
-
-.footer-li-a {
+    }.footer-li-a {
     text-decoration: none;
     color: #B9B9B9;
 }
+
+    /* FOOTER SECTION STYLE END*/
+}
+
 
 
 /* FOOTER SECTION STYLE END*/
